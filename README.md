@@ -20,3 +20,8 @@ query->  retriver (it retirves some documents from the vector db) -> gen (it gen
 1. now understand one eval needed in retirver if it can fetch needed docs build db and what is ouput and fetch doc from ur retirver and check if ur retiriver works fine tis output u can give to llm and ask if this works fine if it able to fetch related docs
 2. Genrator will also have one llm eval which eval its ouput
 3. and one final llm eval will be there at last evaluate if the final output is the output u want so its testing phase u have ur expected ouput 
+
+
+# LM eval if answer is textual 
+so now we will use llm model first we build a dataset in which we use a human who rank a llm answer 
+2. example student write a answer first teacher will evaluate and give marks example 12 now llm will evaluate and give marks for example 13 so now both are almost similar scoring so u can use at ur ease according to u which method or project fits u well u can choose that 
